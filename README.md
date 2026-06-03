@@ -16,16 +16,20 @@ veterinarians, visits, treatments, and prescriptions.
 - user-defined functions and views
 
 ## Main Procedures
-1.FinishVisit
+1. FinishVisit
+
 Completes a visit, assigns a veterinarian, and adds a treatment within a single transaction.
 
-2.FinishVisitWithPrescription
+2. FinishVisitWithPrescription
+
 Extended procedure that completes a visit and optionally adds a prescription by calling the child procedure AddPrescription.
 
-3.VetStatistics
+3. VetStatistics
+
 Generates statistics for a veterinarian based on completed visits and treatments, including total visits, total income, and average treatment cost. 
 
-4.ExportAnimals_ToJson_BySpecies
+4. ExportAnimals_ToJson_BySpecies
+
 Exports animal data into JSON format grouped by species using a cursor.
 
 
